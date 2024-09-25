@@ -7,6 +7,7 @@ const {playIcon} = icons;
 function Explore() {
   return (
     <div className='bg-[#DBE6DC] relative h-[650px] mt-[160px] flex items-center '>
+        {/* main content */}
         <div className="container mx-auto my-auto  ">
             <div className="flex flex-row items-center justify-center">
                 {/* explore img */}
@@ -39,9 +40,11 @@ function Explore() {
                 </div>
             </div>
         </div>
+        {/* overlays 1 */}
         <div className="h-[135px] w-[135px] absolute left-[-40px] top-16">
             <img className='object-contain' src={glassesPattern} alt="" />
         </div>
+        {/* overlays 2 */}
         <div className="h-[125px] absolute  right-7 bottom-[-60px] w-[125px]">
             <img className='object-contain' src={cameraPattern} alt="" />
         </div>
